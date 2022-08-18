@@ -8,7 +8,7 @@ def added(list):
         total = total + x
     return total
 
-#   print(added(student_heights))
+🔎#   print(added(student_heights))
 
 def counter(list):
     i = 0
@@ -16,7 +16,7 @@ def counter(list):
         i += 1
     return i
 
-#   print(counter(student_heights))
+🔎#   print(counter(student_heights))
 
 median = (added(student_heights)) / (counter(student_heights))
 print(round(median))
